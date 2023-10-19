@@ -1,0 +1,45 @@
+#map_container {
+  overflow: hidden;
+  width: 1024px;
+  height: 600px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+#mai_info {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mai_info h2{
+  font-size: 22px;
+  font-weight: bold;
+}
+#mai_info p{
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+
+#address_input {
+  margin-bottom: 10px;
+  border: 1px solid #CFCFCF;
+  width: 830px;
+  height: 32px;
+}
+
+#search_btn {
+  border-color: #CFCFCF;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  background: #CFCFCF;
+  margin-left: 14px;
+  height: 32px;
+  width: 114px;
+}
+
+#map {
+  height: 416px;
+}
