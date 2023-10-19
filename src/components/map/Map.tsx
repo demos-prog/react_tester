@@ -14,7 +14,7 @@ const Map: React.FC = () => {
   const provider = new OpenStreetMapProvider();
 
   function handleChangeInput(e: React.ChangeEvent<HTMLInputElement>) {
-    // console.log(e.target.value);
+    console.log(e.target.value);
   }
 
   function ChangeView({ center, zoom }: { center: [number, number]; zoom: number }) {
