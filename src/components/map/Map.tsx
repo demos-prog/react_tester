@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import { OpenStreetMapProvider } from 'leaflet-geosearch';
+import DraggableMarker from './DraggableMarker';
 import 'leaflet/dist/leaflet.css';
 import './Map.css';
-import DraggableMarker from './DraggableMarker';
 
 
 const Map: React.FC = () => {
